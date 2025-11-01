@@ -5,14 +5,14 @@ resource "aws_instance" "dev" {
       Name = "dev"
     }
 
-    # lifecycle {
-    #   create_before_destroy = true
-    # }
-    # lifecycle {
-    #   ignore_changes = [tags,  ]
-    # }
      #lifecycle {
-      # prevent_destroy = true
+       #create_before_destroy = true
      #}
+    #lifecycle {
+    #ignore_changes = [tags,  ]
+    #}
+    #fecycle {
+    #prevent_destroy = true
+   #}
   
 }
